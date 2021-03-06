@@ -31,4 +31,4 @@ jobs:
           file: ./Dockerfile
           tags: valainisgt/docker-gocd-agent-debian-10-dotnet-5:v21.1.0
        
-      - run: set -e && docker run --rm valainisgt/docker-gocd-agent-debian-10-dotnet-5:v21.1.0 /bin/bash dotnet --version
+      - run: set -e && docker run --rm valainisgt/docker-gocd-agent-debian-10-dotnet-5:v21.1.0 /bin/bash -c 'dotnet --version'
