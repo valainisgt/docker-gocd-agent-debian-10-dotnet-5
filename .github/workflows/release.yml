@@ -40,4 +40,4 @@ jobs:
           file: ./Dockerfile
           target: prod
           push: true
-          tags: ${{ steps.prep.outputs.tags }}
+          tags: valainisgt/docker-gocd-agent-debian-10-dotnet-5:v21.1.0
