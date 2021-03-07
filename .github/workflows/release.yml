@@ -38,6 +38,5 @@ jobs:
           builder: ${{ steps.buildx.outputs.name }}
           context: .
           file: ./Dockerfile
-          target: prod
           push: true
           tags: valainisgt/docker-gocd-agent-debian-10-dotnet-5:v21.1.0
